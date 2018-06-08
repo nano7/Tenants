@@ -1,4 +1,4 @@
-<?php namespace NetForce\Laravel\Tenant;
+<?php namespace Nano7\Tenants;
 
 use Nano7\Database\Model\Model;
 
