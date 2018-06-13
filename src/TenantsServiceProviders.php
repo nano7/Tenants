@@ -9,6 +9,8 @@ class TenantsServiceProviders extends ServiceProvider
      */
     public function register()
     {
-        //..
+        $this->app->singleton('tenants', function ($app) {
+            return new Tenant($app);
+        });
     }
 }
