@@ -1,7 +1,7 @@
 <?php namespace Nano7\Tenants;
 
+use Nano7\Support\Str;
 use Nano7\Foundation\Application;
-use Nano7\Foundation\Support\Str;
 
 class Tenant
 {
